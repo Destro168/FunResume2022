@@ -1,0 +1,76 @@
+@import 'lib/poppins.css';
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(108, 117, 125) !important;
+    margin: 0px;
+}
+
+.three-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Text color accent */
+.purpleProducts {
+    color: rgb(121, 82, 179);
+}
+
+.secondary-color {
+    color: rgb(82, 127, 179);
+}
+
+.codeSubtext {
+    color: #7b898a;
+    font-size: 18px;
+}
+
+/* Final 3 Panels Styling */
+
+@media (max-width: 400px) {
+    .myImg {
+        width: 100%;
+        height: 100%;
+    }
+
+    p.customHeader {
+        font-size: 18px;
+    }
+}
+
+h5 {
+    font-size: 14px !important;
+    font-style: italic;
+}
+
+/** Quote CSS Rules */
+
+blockquote {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.quote-container {
+    position: relative;
+    display: flex;
+}
+
+.quote {
+    font-size: 100px;
+    color: rgb(187, 187, 187);
+    height: 10px;
+}
+
+.quote-left {
+    position: absolute;
+    left: 0px;
+    top: -30px;
+}
+
+.quote-right {
+    position: absolute;
+    right: 0px;
+    bottom: 78px;
+}
